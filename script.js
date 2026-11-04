@@ -57,14 +57,6 @@ document.getElementById("details").innerHTML = VEHICLES.map((v, i) => `
   </section>
 `).join("");
 
-// --- Tableau comparatif ---
-const labels = VEHICLES[0].specs.map(s => s[0]);
-document.getElementById("compare").innerHTML = `
-  <thead><tr><th></th>${VEHICLES.map(v => `<th>${v.name}</th>`).join("")}</tr></thead>
-  <tbody>
-    ${labels.map((l, i) => `<tr><td>${l}</td>${VEHICLES.map(v => `<td>${v.specs[i][1]}</td>`).join("")}</tr>`).join("")}
-  </tbody>`;
-
 // --- Pied de page ---
 document.getElementById("footer-models").innerHTML =
   VEHICLES.map(v => `<a href="#${v.id}">${v.name}</a>`).join("");
