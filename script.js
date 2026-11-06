@@ -28,7 +28,7 @@ document.getElementById("details").innerHTML = VEHICLES.map((v, i) => `
       <div class="vehicle-top ${i % 2 ? "reverse" : ""}">
         <div class="gallery reveal">
           <div class="gallery-main">${img(v.images[0], v.name, "main-img")}</div>
-          <div class="thumbs">
+          <div class="thumbs" ${v.images.length < 2 ? "hidden" : ""}>
             ${v.images.map((src, k) => `
               <button class="thumb ${k === 0 ? "active" : ""}" data-src="${src}" aria-label="Photo ${k + 1}">
                 ${img(src, v.name + " photo " + (k + 1))}
