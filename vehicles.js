@@ -111,5 +111,27 @@ const VEHICLES = [
       ["Taille du réservoir", "160 000 mb"],
       ["Carburants compatibles", "Essence, biodiesel, diesel"]
     ]
+  },
+  {
+    id: "hell3",
+    name: "Sisu Hell 3",
+    tagline: "La troisième génération",
+    description:
+      "La troisième version du Sisu Hell 3 est arrivée ! Cet hélicoptère performant est hyper maniable, blindé, et possède une soute à bombes.",
+    badge: "Hélicoptère polyvalent",
+    images: ["images/hell3.jpg"],
+    highlights: [
+      { value: "24 576", unit: "SU", label: "Puissance moteur" },
+      { value: "166", unit: "km/h", label: "Vitesse maximale (46,1 m/s)" },
+      { value: "109", unit: "kpg", label: "Masse du véhicule" }
+    ],
+    specs: [
+      ["Puissance du moteur", "24 576 SU"],
+      ["Vitesse maximale", "166 km/h (46,1 m/s)"],
+      ["Masse du véhicule", "109 kpg"],
+      ["Consommation maximale", "4 mb/s"],
+      ["Taille du réservoir", "160 000 mb"],
+      ["Carburants compatibles", "Essence, biodiesel, diesel"]
+    ]
   }
 ];
