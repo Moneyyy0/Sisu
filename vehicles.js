@@ -133,5 +133,27 @@ const VEHICLES = [
       ["Taille du réservoir", "160 000 mb"],
       ["Carburants compatibles", "Essence, biodiesel, diesel"]
     ]
+  },
+  {
+    id: "tempest",
+    name: "Sisu Tempest",
+    tagline: "Maître du ciel",
+    description:
+      "Cet avion de chasse surpuissant est le plus maniable qui existe : il est blindé tout en restant rapide et agile. Son moteur surpuissant lui permet de décoller sur une piste très courte, idéal pour un porte-avions. Vous pouvez monter vos propres canons et armes sur ses ailes, et il possède déjà une soute à bombes incluse.",
+    badge: "Avion de chasse",
+    images: ["images/tempest.jpg"],
+    highlights: [
+      { value: "49 152", unit: "SU", label: "Puissance moteur" },
+      { value: "268", unit: "km/h", label: "Vitesse maximale (74,5 m/s)" },
+      { value: "235", unit: "kpg", label: "Masse du véhicule" }
+    ],
+    specs: [
+      ["Puissance du moteur", "49 152 SU"],
+      ["Vitesse maximale", "268 km/h (74,5 m/s)"],
+      ["Masse du véhicule", "235 kpg"],
+      ["Consommation maximale", "4 mb/s"],
+      ["Taille du réservoir", "4 × 160 000 mb"],
+      ["Carburants compatibles", "Essence, biodiesel, diesel"]
+    ]
   }
 ];
